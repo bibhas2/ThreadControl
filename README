@@ -1,0 +1,4 @@
+The AsyncTask mechanism in Android provides cancellation semantics but no way to pause and
+resume background work. The ThreadControl class shown in this project is precisely meant for
+that. It gives a simple way for the main GUI thread to control all background threads. The
+main thread can pause, resume and cancel work.
